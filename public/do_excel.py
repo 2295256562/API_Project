@@ -1,5 +1,5 @@
 import ast
-
+import os
 from openpyxl import load_workbook
 from public.get_data import GetData
 from public.do_regx import DoRegx
@@ -49,9 +49,11 @@ class DoExcel(object):
         #         tel = i['data'].replace('$tel_1', str(tel))
         #         i['data'] = tel
 
-        for i in test_data:
-            tel = DoRegx.do_regx(i['data'])
-            i['data'] = tel
+        # for i in test_data:
+        #     tel = DoRegx.do_regx(i['data'])
+        #     i['data'] = tel
+
+
         return test_data
 
     def write_back(self, i, result, TestResult):
@@ -79,6 +81,8 @@ class DoExcel(object):
 
 
 if __name__ == '__main__':
-    test_data = DoExcel(file_name=r'D:\Python代码\API_Project\test_data\xxxc.xlsx', sheet_name='112')
+
+    c = os.path.dirname(os.path.dirname(__file__)) + '/test_data/xxxc.xlsx'
+    test_data = DoExcel(file_name=c, sheet_name='掘金')
     data = test_data.get_data()
     print(data)

@@ -20,7 +20,7 @@ class DoRegx:
         return string
 
 
-s = '{"username":"123425653","password":"${tel_1}"}'
-res = DoRegx.do_regx(s)
-
-print(res)
+# s = '{"username":"123425653","password":"${tel_1}"}'
+# res = DoRegx.do_regx(s)
+#
+# print(res)

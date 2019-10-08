@@ -34,7 +34,7 @@ class HttpRequest:
         return headers
 
 
-    def http_request(self, url, data, http_method):
+    def http_request(self, url, data, http_method, header):
         """
         http 请求基础类
         :param url: 请求的url
@@ -42,12 +42,12 @@ class HttpRequest:
         :param http_method: 请求方式  GET、POST
         :return: res
         """
-        headers = self.headers()
+        # headers = self.headers()
         try:
             if http_method.upper() == 'GET':
                 res = requests.get(url, data)
             elif http_method.upper() == 'POST':
-                res = requests.post(url, data, headers=headers)
+                res = requests.post(url, data)
             else:
                 raise NameError("你输入的请求方式不对， 请你输入GET或POST")
         except Exception as e:
