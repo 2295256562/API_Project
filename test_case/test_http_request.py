@@ -33,7 +33,7 @@ class Test_Requests(unittest.TestCase):
         # print(url)
 
         # 判断url中是否有变量符,如果有就去替换
-        DoRegx.do_regx(item['url'], self.datas)
+        url = DoRegx.do_regx(item['url'], self.datas)
 
         # 判断url是否等于空
         if item['data'] != None:
@@ -42,7 +42,7 @@ class Test_Requests(unittest.TestCase):
             data = None
         request_data = data
 
-        res = HttpRequest().http_request(item['url'], request_data, item['method'], item['header(Y/N)'])
+        res = HttpRequest().http_request(url, request_data, item['method'], item['header(Y/N)'])
         Logger().INFO('请求的地址：{}, 请求方法：{}， 请求参数：{}'.format(item['url'], item['method'], item['data']))
         try:
             # Logger().INFO("断言{}---{}".format(item['expected'], res.json()))

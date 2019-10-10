@@ -45,12 +45,12 @@ class HttpRequest:
         try:
             if http_method.upper() == 'GET':
                 if data != None:
-                    res = requests.get(url, data)
+                    res = requests.get(url, eval(data))
                 else:
                     res = requests.get(url)
             elif http_method.upper() == 'POST':
                 if data != None:
-                    res = requests.post(url, data)
+                    res = requests.post(url, eval(data))
                 else:
                     res = requests.post(url)
             else:

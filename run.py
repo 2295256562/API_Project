@@ -1,10 +1,11 @@
 import unittest
-import HTMLTestRunnerNew
-from test_case.test_http_request import Test_Request
+from untils import HTMLTestRunnerNew
+
+from test_case.test_http_request import Test_Requests
 
 suite = unittest.TestSuite()
 loder = unittest.TestLoader()
-suite.addTest(loder.loadTestsFromTestCase(Test_Request))
+suite.addTest(loder.loadTestsFromTestCase(Test_Requests))
 
 with open('test_restful/html_report/api_test.html', 'wb') as file:
     runner = HTMLTestRunnerNew.HTMLTestRunner(
