@@ -10,9 +10,9 @@ class HttpRequest:
 
     def __init__(self):
         self.headers_teml = {
-                        'content-type': 'application/json',
-                        'token':None
-                       }
+            'content-type': 'application/json',
+            'token': None
+        }
 
     @lru_cache()
     def _login(self):
@@ -30,9 +30,8 @@ class HttpRequest:
 
     def headers(self):
         headers = copy.deepcopy(self.headers_teml)
-        headers.update({'token':self._login()})
+        headers.update({'token': self._login()})
         return headers
-
 
     def http_request(self, url, data, http_method, header):
         """
@@ -45,9 +44,15 @@ class HttpRequest:
         # headers = self.headers()
         try:
             if http_method.upper() == 'GET':
-                res = requests.get(url, data)
+                if data != None:
+                    res = requests.get(url, data)
+                else:
+                    res = requests.get(url)
             elif http_method.upper() == 'POST':
-                res = requests.post(url, data)
+                if data != None:
+                    res = requests.post(url, data)
+                else:
+                    res = requests.post(url)
             else:
                 raise NameError("你输入的请求方式不对， 请你输入GET或POST")
         except Exception as e:
@@ -56,5 +61,6 @@ class HttpRequest:
 
 
 if __name__ == '__main__':
-    C = HttpRequest().http_request('http://127.0.0.1:8000/api/reg','{"username":"123425653","password":"1111"}','POST')
+    C = HttpRequest().http_request('http://127.0.0.1:8000/api/reg', '{"username":"123425653","password":"1111"}',
+                                   'POST')
     print(C.headers)
