@@ -1,12 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="49f1dbbe-029b-48dc-b55a-d6e45f054cc1" name="Default Changelist" comment="" />
+    <list default="true" id="49f1dbbe-029b-48dc-b55a-d6e45f054cc1" name="Default Changelist" comment="tijiao">
+      <change beforePath="$PROJECT_DIR$/.idea/API_Project.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/API_Project.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/do_excel.py" beforeDir="false" afterPath="$PROJECT_DIR$/public/do_excel.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_case/test_http_request.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_case/test_http_request.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_data/xxxc.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/test_data/xxxc.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_restful/log/1333.log" beforeDir="false" afterPath="$PROJECT_DIR$/test_restful/log/1333.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/untils/do_dict.py" beforeDir="false" afterPath="$PROJECT_DIR$/untils/do_dict.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/untils/do_gloabs.py" beforeDir="false" afterPath="$PROJECT_DIR$/untils/do_gloabs.py" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/API_Project$do_gloabs.coverage" NAME="do_gloabs Coverage Results" MODIFIED="1570591173106" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/untils" />
+    <SUITE FILE_PATH="coverage/API_Project$Unittests_for_test_http_request_Test_Request_test_request.coverage" NAME="Unittests for test_http_request.Test_Request.test_request Coverage Results" MODIFIED="1570590268297" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_case" />
+    <SUITE FILE_PATH="coverage/API_Project$Unittests_for_test_http_request_Test_Requests_test_request.coverage" NAME="Unittests for test_http_request.Test_Requests.test_request Coverage Results" MODIFIED="1570605205885" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_case" />
+    <SUITE FILE_PATH="coverage/API_Project$Unittests_for_test_http_request_Test_Requests.coverage" NAME="Unittests for test_http_request.Test_Requests Coverage Results" MODIFIED="1570606620259" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_case" />
+    <SUITE FILE_PATH="coverage/API_Project$do_regx.coverage" NAME="do_regx Coverage Results" MODIFIED="1570615572241" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/public" />
+    <SUITE FILE_PATH="coverage/API_Project$do_dict.coverage" NAME="do_dict Coverage Results" MODIFIED="1570606878003" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/untils" />
+    <SUITE FILE_PATH="coverage/API_Project$do_excel.coverage" NAME="do_excel Coverage Results" MODIFIED="1570528332408" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/public" />
+    <SUITE FILE_PATH="coverage/API_Project$Unittests_for_test_http_request_Test_Request.coverage" NAME="Unittests for test_http_request.Test_Request Coverage Results" MODIFIED="1570591711607" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_case" />
+    <SUITE FILE_PATH="coverage/API_Project$test.coverage" NAME="test Coverage Results" MODIFIED="1570588615857" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_case" />
+    <SUITE FILE_PATH="coverage/API_Project$Unittests_in_test_http_request_py.coverage" NAME="Unittests in test_http_request.py Coverage Results" MODIFIED="1570523171318" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_case" />
   </component>
   <component name="DatabaseView">
     <option name="SHOW_INTERMEDIATE" value="true" />
@@ -22,39 +47,55 @@
     <expand />
     <select />
   </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="902002620">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="3" />
+          <entry key="project.open.time.1" value="2" />
+          <entry key="project.open.time.4" value="1" />
+          <entry key="project.open.time.9" value="1" />
+          <entry key="project.opened" value="4" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="py" value="2560" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="Python" value="2560" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="log" value="2" />
+          <entry key="py" value="38" />
+          <entry key="pyi" value="1" />
+          <entry key="vue" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="Log" value="2" />
+          <entry key="PLAIN_TEXT" value="1" />
+          <entry key="Python" value="38" />
+          <entry key="PythonStub" value="1" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test_case/test_http_request.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="220">
-              <caret line="13" column="33" lean-forward="true" selection-start-line="13" selection-start-column="33" selection-end-line="13" selection-end-column="33" />
+            <state relative-caret-position="852">
+              <caret line="44" column="36" lean-forward="true" selection-start-line="44" selection-start-column="36" selection-end-line="44" selection-end-column="36" />
               <folding>
-                <element signature="e#0#15#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/http_request.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="526">
-              <caret line="46" column="40" selection-start-line="46" selection-start-column="40" selection-end-line="46" selection-end-column="40" />
-              <folding>
-                <element signature="e#0#11#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/public/do_excel.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="110">
-              <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
-              <folding>
-                <element signature="e#0#10#0" expanded="true" />
+                <element signature="e#0#9#0" expanded="true" />
+                <marker date="1570670400093" expanded="true" signature="503:513" ph="..." />
               </folding>
             </state>
           </provider>
@@ -63,8 +104,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public/do_regx.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="352">
-              <caret line="19" selection-start-line="19" selection-end-line="19" />
+            <state relative-caret-position="861">
+              <caret line="48" selection-start-line="48" selection-end-line="48" />
               <folding>
                 <element signature="e#0#9#0" expanded="true" />
               </folding>
@@ -75,8 +116,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public/get_data.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="308">
-              <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+            <state relative-caret-position="253">
+              <caret line="11" column="9" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="9" />
               <folding>
                 <element signature="e#0#34#0" expanded="true" />
               </folding>
@@ -85,24 +126,45 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/log.py">
+        <entry file="file://$PROJECT_DIR$/test_case/test.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="308">
-              <caret line="17" column="34" lean-forward="true" selection-start-line="17" selection-start-column="34" selection-end-line="17" selection-end-column="34" />
+            <state relative-caret-position="69">
+              <caret line="3" selection-start-line="3" selection-end-line="3" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/untils/do_gloabs.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1472">
+              <caret line="64" column="85" selection-start-line="64" selection-start-column="71" selection-end-line="64" selection-end-column="85" />
               <folding>
-                <element signature="e#0#14#0" expanded="true" />
+                <element signature="e#0#9#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/public/http_request.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="437">
+              <caret line="41" column="20" lean-forward="true" selection-start-line="41" selection-start-column="20" selection-end-line="41" selection-end-column="20" />
+              <folding>
+                <element signature="e#0#11#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/run.py">
+        <entry file="file://$PROJECT_DIR$/public/do_excel.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="15" column="21" lean-forward="true" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="21" />
+            <state relative-caret-position="1518">
+              <caret line="66" column="11" selection-start-line="66" selection-start-column="11" selection-end-line="66" selection-end-column="11" />
               <folding>
-                <element signature="e#0#15#0" expanded="true" />
+                <element signature="e#0#10#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -117,7 +179,14 @@
       </list>
     </option>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>failed</find>
+      <find>uid</find>
+    </findStrings>
+  </component>
   <component name="Git.Settings">
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
@@ -128,14 +197,23 @@
         <option value="$PROJECT_DIR$/untils/db_mysql.py" />
         <option value="$PROJECT_DIR$/public/write_token.py" />
         <option value="$PROJECT_DIR$/config/globals.py" />
-        <option value="$PROJECT_DIR$/public/http_request.py" />
-        <option value="$PROJECT_DIR$/test_case/test_http_request.py" />
         <option value="$PROJECT_DIR$/public/log.py" />
-        <option value="$PROJECT_DIR$/public/do_excel.py" />
         <option value="$PROJECT_DIR$/public/get_data.py" />
+        <option value="$PROJECT_DIR$/public/do_excel.py" />
+        <option value="$PROJECT_DIR$/test_case/test.py" />
+        <option value="$PROJECT_DIR$/untils/do_gloabs.py" />
+        <option value="$PROJECT_DIR$/untils/do_dict.py" />
         <option value="$PROJECT_DIR$/public/do_regx.py" />
+        <option value="$PROJECT_DIR$/test_case/test_http_request.py" />
+        <option value="$PROJECT_DIR$/public/http_request.py" />
       </list>
     </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectConfigurationFiles">
     <option name="files">
@@ -144,11 +222,11 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="379" />
-    <option name="y" value="65" />
-    <option name="width" value="1417" />
-    <option name="height" value="953" />
+  <component name="ProjectFrameBounds" fullScreen="true">
+    <option name="x" value="1440" />
+    <option name="y" value="46" />
+    <option name="width" value="1920" />
+    <option name="height" value="1080" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -156,18 +234,12 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="API_Project" type="b2602c69:ProjectViewProjectNode" />
               <item name="API_Project" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="API_Project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="API_Project" type="462c0819:PsiDirectoryNode" />
-              <item name="config" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="API_Project" type="b2602c69:ProjectViewProjectNode" />
@@ -193,12 +265,6 @@
               <item name="API_Project" type="b2602c69:ProjectViewProjectNode" />
               <item name="API_Project" type="462c0819:PsiDirectoryNode" />
               <item name="test_restful" type="462c0819:PsiDirectoryNode" />
-              <item name="html_report" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="API_Project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="API_Project" type="462c0819:PsiDirectoryNode" />
-              <item name="test_restful" type="462c0819:PsiDirectoryNode" />
               <item name="log" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -210,12 +276,13 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="D:/GitHub/api_cspt" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -225,7 +292,7 @@
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="restartRequiresConfirmation" value="false" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -248,7 +315,7 @@
     </option>
   </component>
   <component name="RunManager" selected="Python.do_regx">
-    <configuration name="do_excel" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="do_dict" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="API_Project" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -256,12 +323,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/public" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/untils" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/public/do_excel.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/untils/do_dict.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -292,50 +359,6 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="http_request" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="API_Project" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/public" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/public/http_request.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="run" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="API_Project" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/run.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <configuration name="Unittests for test_http_request.Test_Request" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="API_Project" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -351,18 +374,55 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
+    <configuration name="Unittests for test_http_request.Test_Requests" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="API_Project" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test_case" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_http_request.Test_Requests&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unittests for test_http_request.Test_Requests.test_request" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="API_Project" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test_case" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_http_request.Test_Requests.test_request&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Python tests.Unittests for test_http_request.Test_Request" />
+      <item itemvalue="Python tests.Unittests for test_http_request.Test_Requests.test_request" />
+      <item itemvalue="Python tests.Unittests for test_http_request.Test_Requests" />
+      <item itemvalue="Python.do_dict" />
+      <item itemvalue="Python.do_regx" />
+    </list>
     <recent_temporary>
       <list>
         <item itemvalue="Python.do_regx" />
-        <item itemvalue="Python.do_excel" />
-        <item itemvalue="Python.run" />
-        <item itemvalue="Python.http_request" />
+        <item itemvalue="Python.do_dict" />
+        <item itemvalue="Python tests.Unittests for test_http_request.Test_Requests" />
+        <item itemvalue="Python tests.Unittests for test_http_request.Test_Requests.test_request" />
         <item itemvalue="Python tests.Unittests for test_http_request.Test_Request" />
       </list>
     </recent_temporary>
   </component>
   <component name="SvnConfiguration">
-    <configuration />
+    <configuration>$USER_HOME$/.subversion</configuration>
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -375,99 +435,139 @@
       <workItem from="1569889727840" duration="33000" />
       <workItem from="1570247617660" duration="25370000" />
       <workItem from="1570325402850" duration="17001000" />
-      <workItem from="1570411937745" duration="12341000" />
+      <workItem from="1570411937745" duration="12824000" />
     </task>
+    <task id="LOCAL-00001" summary="tijiao">
+      <created>1570458045314</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1570458045314</updated>
+    </task>
+    <task id="LOCAL-00002" summary="tijiao">
+      <created>1570529251122</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1570529251122</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Unittests_for_test_http_request_Test_Request - 2019.10.06 at 16h 54m 48s.xml">
-      <configuration name="Unittests for test_http_request.Test_Request" configurationId="tests" />
+    <history-entry file="Unittests_for_test_http_request_Test_Requests - 2019.10.09 at 13h 56m 41s.xml">
+      <configuration name="Unittests for test_http_request.Test_Requests" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_test_http_request_Test_Request - 2019.10.06 at 16h 55m 35s.xml">
-      <configuration name="Unittests for test_http_request.Test_Request" configurationId="tests" />
+    <history-entry file="Unittests_for_test_http_request_Test_Requests - 2019.10.09 at 13h 57m 56s.xml">
+      <configuration name="Unittests for test_http_request.Test_Requests" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_test_http_request_Test_Request - 2019.10.06 at 16h 57m 44s.xml">
-      <configuration name="Unittests for test_http_request.Test_Request" configurationId="tests" />
+    <history-entry file="Unittests_for_test_http_request_Test_Requests - 2019.10.09 at 14h 12m 08s.xml">
+      <configuration name="Unittests for test_http_request.Test_Requests" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_test_http_request_Test_Request - 2019.10.06 at 16h 57m 55s.xml">
-      <configuration name="Unittests for test_http_request.Test_Request" configurationId="tests" />
+    <history-entry file="Unittests_for_test_http_request_Test_Requests_test_request - 2019.10.09 at 15h 13m 27s.xml">
+      <configuration name="Unittests for test_http_request.Test_Requests.test_request" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_test_http_request_Test_Request - 2019.10.06 at 16h 58m 36s.xml">
-      <configuration name="Unittests for test_http_request.Test_Request" configurationId="tests" />
+    <history-entry file="Unittests_for_test_http_request_Test_Requests - 2019.10.09 at 15h 13m 40s.xml">
+      <configuration name="Unittests for test_http_request.Test_Requests" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_test_http_request_Test_Request - 2019.10.06 at 17h 02m 06s.xml">
-      <configuration name="Unittests for test_http_request.Test_Request" configurationId="tests" />
+    <history-entry file="Unittests_for_test_http_request_Test_Requests - 2019.10.09 at 15h 15m 39s.xml">
+      <configuration name="Unittests for test_http_request.Test_Requests" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_test_http_request_Test_Request - 2019.10.06 at 17h 02m 34s.xml">
-      <configuration name="Unittests for test_http_request.Test_Request" configurationId="tests" />
+    <history-entry file="Unittests_for_test_http_request_Test_Requests - 2019.10.09 at 15h 16m 01s.xml">
+      <configuration name="Unittests for test_http_request.Test_Requests" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_test_http_request_Test_Request - 2019.10.06 at 17h 03m 01s.xml">
-      <configuration name="Unittests for test_http_request.Test_Request" configurationId="tests" />
+    <history-entry file="Unittests_for_test_http_request_Test_Requests - 2019.10.09 at 15h 17m 16s.xml">
+      <configuration name="Unittests for test_http_request.Test_Requests" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_test_http_request_Test_Request - 2019.10.06 at 17h 20m 17s.xml">
-      <configuration name="Unittests for test_http_request.Test_Request" configurationId="tests" />
+    <history-entry file="Unittests_for_test_http_request_Test_Requests - 2019.10.09 at 15h 18m 27s.xml">
+      <configuration name="Unittests for test_http_request.Test_Requests" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_test_http_request_Test_Request - 2019.10.06 at 17h 21m 31s.xml">
-      <configuration name="Unittests for test_http_request.Test_Request" configurationId="tests" />
+    <history-entry file="Unittests_for_test_http_request_Test_Requests - 2019.10.09 at 15h 37m 01s.xml">
+      <configuration name="Unittests for test_http_request.Test_Requests" configurationId="tests" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="58329000" />
+    <option name="totallyTimeSpent" value="58812000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
+    <frame x="1440" y="46" width="1920" height="1080" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49823943" visible="true" weight="0.12793177" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49823943" visible="true" weight="0.11608094" />
       <window_info id="Structure" order="1" sideWeight="0.50176054" side_tool="true" weight="0.1937046" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.20151679" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" sideWeight="0.49899194" visible="true" weight="0.46312365" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4985694" weight="0.26039603" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49899194" weight="0.46138614" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
-      <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5010081" side_tool="true" weight="0.39923954" />
-      <window_info anchor="bottom" id="Terminal" order="11" />
+      <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50143063" side_tool="true" weight="0.32650602" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.32673267" />
       <window_info anchor="bottom" id="Python Console" order="12" />
+      <window_info anchor="bottom" id="Tail" order="13" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="SciView" order="3" />
       <window_info anchor="right" id="Database" order="4" weight="0.3296371" />
     </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49823943" visible="true" weight="0.11235357" />
+      <window_info id="Structure" order="1" sideWeight="0.50176054" side_tool="true" weight="0.1937046" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Tail" order="0" />
+      <window_info anchor="bottom" id="Message" order="1" />
+      <window_info anchor="bottom" id="Find" order="2" />
+      <window_info anchor="bottom" id="Run" order="3" sideWeight="0.4985694" visible="true" weight="0.26831684" />
+      <window_info anchor="bottom" id="Debug" order="4" sideWeight="0.49899194" weight="0.46237624" />
+      <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="7" />
+      <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Database Changes" order="10" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50143063" side_tool="true" weight="0.32650602" />
+      <window_info anchor="bottom" id="Terminal" order="12" weight="0.32771084" />
+      <window_info anchor="bottom" id="Python Console" order="13" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="SciView" order="3" />
+      <window_info anchor="right" id="Database" order="4" weight="0.3296371" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="tijiao" />
+    <option name="LAST_COMMIT_MESSAGE" value="tijiao" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/public/http_request.py</url>
-          <line>11</line>
-          <option name="timeStamp" value="6" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/public/do_excel.py</url>
-          <line>52</line>
-          <option name="timeStamp" value="7" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/public/do_regx.py</url>
-          <line>15</line>
-          <option name="timeStamp" value="8" />
-        </line-breakpoint>
-      </breakpoints>
+      <breakpoints-dialog>
+        <breakpoints-dialog />
+      </breakpoints-dialog>
+      <default-breakpoints>
+        <breakpoint type="python-exception">
+          <properties notifyOnTerminate="true" exception="BaseException">
+            <option name="notifyOnTerminate" value="true" />
+          </properties>
+        </breakpoint>
+      </default-breakpoints>
     </breakpoint-manager>
     <watches-manager>
       <configuration name="PythonConfigurationType">
         <watch expression="test_data[5]" language="Python" />
         <watch expression="test_data[5]" language="Python" />
+        <watch expression="import re&#10;from public.get_data import GetData&#10;&#10;class DoRegx:&#10;&#10;    &quot;&quot;&quot;&#10;    正则替换类&#10;    &quot;&quot;&quot;&#10;    # 需要传进来的格式为 case_id + 字典或者列表&#10;    # 1.user[tel]   代表取第一个第一个list中的字典user的tel的值&#10;    @staticmethod&#10;    def do_regx(string, dict):&#10;        &quot;&quot;&quot;&#10;        :param str:  传入字符&#10;        :return:&#10;        &quot;&quot;&quot;&#10;        # s = zhi.split('.')&#10;        # n = int(s[0])-1&#10;        # data = dict[n]&#10;        #&#10;        # t = s[1]&#10;        # token = dict[n]&#10;        # print(type(token))&#10;&#10;        #  对传进来的string 进行切片&#10;&#10;        # for i in dict:&#10;        #     print(i)&#10;        while re.search('\$\{(.*?)\}',string):&#10;            key = re.search('\$\{(.*?)\}',string).group(0)&#10;            value = re.search('\$\{(.*?)\}',string).group(1)&#10;            n = value.split('.')&#10;            tmp = dict[n[0]]&#10;&#10;            for i in range(2, n):&#10;                tem= tmp[i]&#10;            print(object)&#10;            # print(n)&#10;            # for c in dict[n].values():&#10;            #     j = (c[c])&#10;&#10;&#10;            # for c in dict.values():&#10;            #     f = (c['user'][value])&#10;            string =string.replace(key, )&#10;        return string&#10;&#10;v = [{1: {'user': {'role': 'guest', 'tel_1': 'yuanman99', 'selfDescription': '',&#10;                   'email': '', 'mobilePhoneNumber': '17671105406', 'jobTitle':&#10;                       '', 'company': '', 'avatarHd': '', 'avatarLarge': '',&#10;                   'blogAddress': '', 'deviceType': 'web', 'editorType':&#10;                       'markdown', 'juejinPower': 0, 'level': 0, 'rankIndex': 0,&#10;                   'roles': None, 'allowNotification': True,&#10;                   'emailVerified': False, 'mobilePhoneVerified': True,&#10;                   'isAuthor': False, 'isUnitedAuthor': False,&#10;                   'blacklist': False, 'followeesCount': 0, 'followersCount': 0,&#10;                   'postedPostsCount': 0, 'postedEntriesCount': 0,&#10;                   'collectedEntriesCount': 0, 'viewedEntriesCount': 7,&#10;                   'totalViewsCount': 0, 'subscribedTagsCount': 0, 'totalCollectionsCount': 0,&#10;                   'totalHotIndex': 0, 'totalCommentsCount': 0, 'collectionSetCount': 0,&#10;                   'latestLoginedInAt': '2019-10-09T07:37:01.424Z', 'createdAt': '2019-10-08T07:47:54.243Z',&#10;                   'updatedAt': '2019-10-09T07:37:01.424Z', 'useLeancloudPwd': False,&#10;                   'community': None, 'objectId': '5d9c3f2af265da5bb55837f9', 'uid': '5d9c3f2af265da5bb55837f9'},&#10;          'token': 'eyJhY2Nlc3NfdG9rZW4iOiJPU3hrMHlJekpUNHpJemhwIiwi'&#10;                   'cmVmcmVzaF90b2tlbiI6InlGdnZKU29QNUJIOEs1Y3QiLCJ0'&#10;                   'b2tlbl90eXBlIjoibWFjIiwiZXhwaXJlX2luIjoyNTkyMDAwfQ==',&#10;          'clientId': 1570606621409, 'userId': '5d9c3f2af265da5bb55837f9'}},&#10;     {2: {'user': {'role': 'guest', 'tel_1': 'yuanman99', 'selfDescription': '',&#10;                   'email': '', 'mobilePhoneNumber': '17671105406', 'jobTitle':&#10;                       '', 'company': '', 'avatarHd': '', 'avatarLarge': '',&#10;                   'blogAddress': '', 'deviceType': 'web', 'editorType':&#10;                       'markdown', 'juejinPower': 0, 'level': 0, 'rankIndex': 0,&#10;                   'roles': None, 'allowNotification': True,&#10;                   'emailVerified': False, 'mobilePhoneVerified': True,&#10;                   'isAuthor': False, 'isUnitedAuthor': False,&#10;                   'blacklist': False, 'followeesCount': 0, 'followersCount': 0,&#10;                   'postedPostsCount': 0, 'postedEntriesCount': 0,&#10;                   'collectedEntriesCount': 0, 'viewedEntriesCount': 7,&#10;                   'totalViewsCount': 0, 'subscribedTagsCount': 0, 'totalCollectionsCount': 0,&#10;                   'totalHotIndex': 0, 'totalCommentsCount': 0, 'collectionSetCount': 0,&#10;                   'latestLoginedInAt': '2019-10-09T07:37:01.424Z', 'createdAt': '2019-10-08T07:47:54.243Z',&#10;                   'updatedAt': '2019-10-09T07:37:01.424Z', 'useLeancloudPwd': False,&#10;                   'community': None, 'objectId': '5d9c3f2af265da5bb55837f9', 'uid': '5d9c3f2af265da5bb55837f9'},&#10;          'token': 'eyJhY2Nlc3NfdG9rZW4iOiJPU3hrMHlJekpUNHpJemhwIiwi'&#10;                   'cmVmcmVzaF90b2tlbiI6InlGdnZKU29QNUJIOEs1Y3QiLCJ0'&#10;                   'b2tlbl90eXBlIjoibWFjIiwiZXhwaXJlX2luIjoyNTkyMDAwfQ==',&#10;          'clientId': 1570606621409, 'userId': '5d9c3f2af265da5bb55837f9'}}&#10;     ]&#10;s = '12123123%ccc=${2.token}&amp;ccc=${2.user.role}'&#10;z = '2.token'&#10;res = DoRegx.do_regx(s,v)&#10;print(res)&#10;&#10;&#10;&#10;&#10;c = {1: {'user': {'role': 'guest', 'username': 'yuanman99', 'selfDescription': '', 'email': '', 'mobilePhoneNumber': '17671105406', 'jobTitle': '', 'company': '', 'avatarHd': '', 'avatarLarge': '', 'blogAddress': '', 'deviceType': 'web', 'editorType': 'markdown', 'juejinPower': 0, 'level': 0, 'rankIndex': 0, 'roles': None, 'allowNotification': True, 'emailVerified': False, 'mobilePhoneVerified': True, 'isAuthor': False, 'isUnitedAuthor': False, 'blacklist': False, 'followeesCount': 0, 'followersCount': 0, 'postedPostsCount': 0, 'postedEntriesCount': 0, 'collectedEntriesCount': 0, 'viewedEntriesCount': 7, 'totalViewsCount': 0, 'subscribedTagsCount': 0, 'totalCollectionsCount': 0, 'totalHotIndex': 0, 'totalCommentsCount': 0, 'collectionSetCount': 0, 'latestLoginedInAt': '2019-10-09T07:37:01.424Z', 'createdAt': '2019-10-08T07:47:54.243Z', 'updatedAt': '2019-10-09T07:37:01.424Z', 'useLeancloudPwd': False, 'community': None, 'objectId': '5d9c3f2af265da5bb55837f9', 'uid': '5d9c3f2af265da5bb55837f9'}, 'token': 'eyJhY2Nlc3NfdG9rZW4iOiJPU3hrMHlJekpUNHpJemhwIiwicmVmcmVzaF90b2tlbiI6InlGdnZKU29QNUJIOEs1Y3QiLCJ0b2tlbl90eXBlIjoibWFjIiwiZXhwaXJlX2luIjoyNTkyMDAwfQ==', 'clientId': 1570606621409, 'userId': '5d9c3f2af265da5bb55837f9'}}&#10;print(type(c))" />
       </configuration>
     </watches-manager>
   </component>
@@ -493,13 +593,7 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$USER_HOME$/.PyCharm2019.1/system/python_stubs/677381966/builtins.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="1842" column="8" selection-start-line="1842" selection-start-column="8" selection-end-line="1842" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$USER_HOME$/.PyCharm2019.1/system/python_stubs/677381966/builtins.py" />
     <entry file="file://$APPLICATION_HOME_DIR$/helpers/typeshed/stdlib/3/collections/__init__.pyi">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="253">
@@ -507,13 +601,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://C:/python/Lib/collections/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="571">
-          <caret line="1242" column="55" selection-start-line="1242" selection-start-column="55" selection-end-line="1242" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://C:/python/Lib/collections/__init__.py" />
     <entry file="file://$PROJECT_DIR$/test_restful/__init__.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -524,13 +612,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://C:/python/Lib/unittest/case.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="609" selection-start-line="609" selection-end-line="609" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://C:/python/Lib/unittest/case.py" />
     <entry file="file://$PROJECT_DIR$/ven/Lib/site-packages/ddt.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="175">
@@ -545,20 +627,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://C:/python/Lib/codecs.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="501">
-          <caret line="310" selection-start-line="310" selection-end-line="310" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://C:/python/Lib/ntpath.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="159">
-          <caret line="240" column="4" selection-start-line="240" selection-start-column="4" selection-end-line="240" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://C:/python/Lib/codecs.py" />
+    <entry file="file://C:/python/Lib/ntpath.py" />
     <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/_pydev_imps/_pydev_execfile.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="374">
@@ -569,13 +639,7 @@
     <entry file="file://$PROJECT_DIR$/ven/Lib/site-packages/requests/__init__.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$APPLICATION_HOME_DIR$/helpers/typeshed/stdlib/3/unittest/__init__.pyi">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="212">
-          <caret line="228" column="6" selection-start-line="228" selection-start-column="6" selection-end-line="228" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/helpers/typeshed/stdlib/3/unittest/__init__.pyi" />
     <entry file="file://$PROJECT_DIR$/test_data/__init__.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -613,13 +677,7 @@
     <entry file="file://$PROJECT_DIR$/public/write_token.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://C:/python/Lib/logging/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="94">
-          <caret line="1023" column="18" selection-start-line="1023" selection-start-column="18" selection-end-line="1023" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://C:/python/Lib/logging/__init__.py" />
     <entry file="file://$PROJECT_DIR$/ven/Lib/site-packages/requests/api.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="298">
@@ -627,91 +685,112 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/http_request.py">
+    <entry file="file://C:/python/Lib/sre_parse.py" />
+    <entry file="file://C:/python/Lib/sre_compile.py" />
+    <entry file="file://C:/python/Lib/re.py" />
+    <entry file="file://$PROJECT_DIR$/run.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="526">
-          <caret line="46" column="40" selection-start-line="46" selection-start-column="40" selection-end-line="46" selection-end-column="40" />
-          <folding>
-            <element signature="e#0#11#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="345">
+          <caret line="15" column="21" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="21" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test_restful/log/1333.log">
+    <entry file="file://$USER_HOME$/PycharmProjects/TestPlatform/frontend/src/components/login/login.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-75" />
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/helpers/typeshed/stdlib/3/re.pyi">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/venv/lib/python3.6/site-packages/requests/__init__.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/public/log.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="17" column="34" lean-forward="true" selection-start-line="17" selection-start-column="34" selection-end-line="17" selection-end-column="34" />
-          <folding>
-            <element signature="e#0#14#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test_case/test_http_request.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="13" column="33" lean-forward="true" selection-start-line="13" selection-start-column="33" selection-end-line="13" selection-end-column="33" />
-          <folding>
-            <element signature="e#0#15#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/run.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="15" column="21" lean-forward="true" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="21" />
-          <folding>
-            <element signature="e#0#15#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="484">
+          <caret line="44" selection-start-line="44" selection-end-line="44" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/config/globals.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        <state relative-caret-position="46">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
         </state>
       </provider>
     </entry>
-    <entry file="file://C:/python/Lib/sre_parse.py">
+    <entry file="file://$PROJECT_DIR$/venv/lib/python3.6/site-packages/requests/api.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="111" selection-start-line="111" selection-end-line="111" />
+        <state relative-caret-position="238">
+          <caret line="103" column="4" selection-start-line="103" selection-start-column="4" selection-end-line="103" selection-end-column="4" />
         </state>
       </provider>
     </entry>
-    <entry file="file://C:/python/Lib/sre_compile.py">
+    <entry file="file://$PROJECT_DIR$/test_restful/log/1333.log">
+      <provider selected="true" editor-type-id="LogFileEditorProvider">
+        <state relative-caret-position="1029">
+          <caret line="51" column="143" selection-start-line="51" selection-start-column="135" selection-end-line="51" selection-end-column="143" />
+        </state>
+      </provider>
+      <provider editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/helpers/pycharm/teamcity/unittestpy.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="182">
-          <caret line="561" selection-start-line="561" selection-end-line="561" />
+        <state relative-caret-position="172">
+          <caret line="253" selection-start-line="253" selection-end-line="253" />
         </state>
       </provider>
     </entry>
-    <entry file="file://C:/python/Lib/re.py">
+    <entry file="file:///Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/unittest/runner.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="182">
-          <caret line="300" selection-start-line="300" selection-end-line="300" />
+        <state relative-caret-position="218">
+          <caret line="177" selection-start-line="177" selection-end-line="177" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/unittest/case.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="188">
+          <caret line="601" selection-start-line="601" selection-end-line="601" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/venv/lib/python3.6/site-packages/ddt.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="251">
+          <caret line="144" selection-start-line="144" selection-end-line="144" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/unittest/suite.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="83" selection-start-line="83" selection-end-line="83" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/public/get_data.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+        <state relative-caret-position="253">
+          <caret line="11" column="9" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="9" />
           <folding>
             <element signature="e#0#34#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/do_regx.py">
+    <entry file="file://$PROJECT_DIR$/test_case/test.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="19" selection-start-line="19" selection-end-line="19" />
+        <state relative-caret-position="69">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/untils/do_gloabs.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1472">
+          <caret line="64" column="85" selection-start-line="64" selection-start-column="71" selection-end-line="64" selection-end-column="85" />
           <folding>
             <element signature="e#0#9#0" expanded="true" />
           </folding>
@@ -720,10 +799,48 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/public/do_excel.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+        <state relative-caret-position="1518">
+          <caret line="66" column="11" selection-start-line="66" selection-start-column="11" selection-end-line="66" selection-end-column="11" />
           <folding>
             <element signature="e#0#10#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/untils/do_dict.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="696">
+          <caret line="48" column="57" lean-forward="true" selection-start-line="48" selection-start-column="57" selection-end-line="48" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/do_regx.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="861">
+          <caret line="48" selection-start-line="48" selection-end-line="48" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_case/test_http_request.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="852">
+          <caret line="44" column="36" lean-forward="true" selection-start-line="44" selection-start-column="36" selection-end-line="44" selection-end-column="36" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+            <marker date="1570670400093" expanded="true" signature="503:513" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/http_request.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="41" column="20" lean-forward="true" selection-start-line="41" selection-start-column="20" selection-end-line="41" selection-end-column="20" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
           </folding>
         </state>
       </provider>

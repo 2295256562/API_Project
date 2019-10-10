@@ -1,3 +1,5 @@
+from untils.do_gloabs import resolve_global_var
+
 def dict_get(dic, locators, default=None):
     '''
 
@@ -45,4 +47,7 @@ def can_convert_to_int(input):
 if __name__ == '__main__':
     dict_test = {"result": {"code": "110002", "msg": [{'status': 'ok'}, {'status': 'failed'}]}}
     result = dict_get(dict_test, ['result', 'msg', '-1', 'status'])
+    # a = resolve_global_var(pre_resolve_var=result, global_var_dic=dict_test)
     print(result)
+
+

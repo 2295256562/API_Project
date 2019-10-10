@@ -65,8 +65,8 @@ class DoExcel(object):
         :param TestResult: 是否通过  pass or fail
         :return:
         """
-        self.sheets.cell(i, 7).value = result
-        self.sheets.cell(i, 8).value = TestResult
+        self.sheets.cell(i, 8).value = result
+        self.sheets.cell(i, 9).value = TestResult
         self.files.save(self.file)
 
 
