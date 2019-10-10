@@ -6,7 +6,6 @@ from ddt import ddt, data
 from public.do_excel import DoExcel
 from public.log import Logger
 from untils.do_gloabs import resolve_global_var
-from test_case import test
 from public.do_regx import DoRegx
 
 c = os.path.dirname(os.path.dirname(__file__)) + '/test_data/xxxc.xlsx'

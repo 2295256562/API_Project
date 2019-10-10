@@ -116,19 +116,19 @@ function html_escape(s) {
 <div class='heading'>
 <h1 style="font-family: Microsoft YaHei">单元测试1005</h1>
 <p class='attribute'><strong>测试人员 : </strong> xiaoxiao</p>
-<p class='attribute'><strong>开始时间 : </strong> 2019-10-07 14:08:57</p>
-<p class='attribute'><strong>合计耗时 : </strong> 0:00:00.000999</p>
-<p class='attribute'><strong>测试结果 : </strong> 共 1，错误 1，通过率= 0.00%</p>
+<p class='attribute'><strong>开始时间 : </strong> 2019-10-10 21:33:12</p>
+<p class='attribute'><strong>合计耗时 : </strong> 0:00:00.548668</p>
+<p class='attribute'><strong>测试结果 : </strong> 共 2，通过 1，错误 1，通过率= 50.00%</p>
 
 <p class='description'>单元测试1005</p>
 </div>
 
 
 <p id='show_detail_line'>
-<a class="btn btn-primary" href='javascript:showCase(0)'>概要{ 0.00% }</a>
+<a class="btn btn-primary" href='javascript:showCase(0)'>概要{ 50.00% }</a>
 <a class="btn btn-danger" href='javascript:showCase(1)'>失败{ 0 }</a>
-<a class="btn btn-success" href='javascript:showCase(2)'>通过{ 0 }</a>
-<a class="btn btn-info" href='javascript:showCase(3)'>所有{ 1 }</a>
+<a class="btn btn-success" href='javascript:showCase(2)'>通过{ 1 }</a>
+<a class="btn btn-info" href='javascript:showCase(3)'>所有{ 2 }</a>
 </p>
 <table id='result_table' class="table table-condensed table-bordered table-hover">
 <colgroup>
@@ -149,31 +149,53 @@ function html_escape(s) {
 </tr>
 
 <tr class='errorClass warning'>
-    <td>test_case.test_http_request.Test_Request</td>
+    <td>test_case.test_http_request.Test_Requests</td>
+    <td class="text-center">2</td>
     <td class="text-center">1</td>
     <td class="text-center">0</td>
-    <td class="text-center">0</td>
     <td class="text-center">1</td>
-    <td class="text-center"><a href="javascript:showClassDetail('c1',1)" class="detail" id='c1'>详细</a></td>
+    <td class="text-center"><a href="javascript:showClassDetail('c1',2)" class="detail" id='c1'>详细</a></td>
 </tr>
 
-<tr id='ft1_1' class='none'>
-    <td class='errorCase'><div class='testcase'>test_request_1</div></td>
+<tr id='pt1_1' class='hiddenRow'>
+    <td class='passCase'><div class='testcase'>test_request_1</div></td>
     <td colspan='5' align='center'>
     <!--默认收起错误信息 -Findyou
-    <button id='btn_ft1_1' type="button"  class="btn btn-danger btn-xs collapsed" data-toggle="collapse" data-target='#div_ft1_1'>错误</button>
-    <div id='div_ft1_1' class="collapse">  -->
+    <button id='btn_pt1_1' type="button"  class="btn btn-danger btn-xs collapsed" data-toggle="collapse" data-target='#div_pt1_1'>通过</button>
+    <div id='div_pt1_1' class="collapse">  -->
     <!-- 默认展开错误信息 -Findyou -->
-    <button id='btn_ft1_1' type="button"  class="btn btn-danger btn-xs" data-toggle="collapse" data-target='#div_ft1_1'>错误</button>
-    <div id='div_ft1_1' class="collapse in" align="left">
+    <button id='btn_pt1_1' type="button"  class="btn btn-danger btn-xs" data-toggle="collapse" data-target='#div_pt1_1'>通过</button>
+    <div id='div_pt1_1' class="collapse in" align="left">
     <pre>
     
-ft1_1: Traceback (most recent call last):
-  File "D:\Python代码\API_Project\ven\lib\site-packages\ddt.py", line 145, in wrapper
+pt1_1: 2019-10-10 21:33:13,233  log.py : INFO  请求的地址：https://juejin.im/auth/type/phoneNumber, 请求方法：POST， 请求参数：{"phoneNumber": "17671105406", "password": "yuanman99"}
+{1: {'user': {'role': 'guest', 'username': 'yuanman99', 'selfDescription': '', 'email': '', 'mobilePhoneNumber': '17671105406', 'jobTitle': '', 'company': '', 'avatarHd': '', 'avatarLarge': '', 'blogAddress': '', 'deviceType': 'web', 'editorType': 'markdown', 'juejinPower': 0, 'level': 0, 'rankIndex': 0, 'roles': None, 'allowNotification': True, 'emailVerified': False, 'mobilePhoneVerified': True, 'isAuthor': False, 'isUnitedAuthor': False, 'blacklist': False, 'followeesCount': 15, 'followersCount': 0, 'postedPostsCount': 0, 'postedEntriesCount': 0, 'collectedEntriesCount': 0, 'viewedEntriesCount': 7, 'totalViewsCount': 0, 'subscribedTagsCount': 2, 'totalCollectionsCount': 0, 'totalHotIndex': 0, 'totalCommentsCount': 0, 'collectionSetCount': 0, 'latestLoginedInAt': '2019-10-10T13:33:11.072Z', 'createdAt': '2019-10-08T07:47:54.243Z', 'updatedAt': '2019-10-10T13:33:11.072Z', 'useLeancloudPwd': False, 'community': None, 'objectId': '5d9c3f2af265da5bb55837f9', 'uid': '5d9c3f2af265da5bb55837f9'}, 'token': 'eyJhY2Nlc3NfdG9rZW4iOiJVTjNENEN1TkxxZ3NKR0RiIiwicmVmcmVzaF90b2tlbiI6ImNoMVF0dEFPaGVCNTMyR08iLCJ0b2tlbl90eXBlIjoibWFjIiwiZXhwaXJlX2luIjoyNTkyMDAwfQ==', 'clientId': 1570714391056, 'userId': '5d9c3f2af265da5bb55837f9'}}
+
+
+    </pre>
+    </div>
+    </td>
+</tr>
+
+<tr id='ft1_2' class='none'>
+    <td class='errorCase'><div class='testcase'>test_request_2</div></td>
+    <td colspan='5' align='center'>
+    <!--默认收起错误信息 -Findyou
+    <button id='btn_ft1_2' type="button"  class="btn btn-danger btn-xs collapsed" data-toggle="collapse" data-target='#div_ft1_2'>错误</button>
+    <div id='div_ft1_2' class="collapse">  -->
+    <!-- 默认展开错误信息 -Findyou -->
+    <button id='btn_ft1_2' type="button"  class="btn btn-danger btn-xs" data-toggle="collapse" data-target='#div_ft1_2'>错误</button>
+    <div id='div_ft1_2' class="collapse in" align="left">
+    <pre>
+    
+ft1_2: Traceback (most recent call last):
+  File "D:\GitHub\API_Project\venv\lib\site-packages\ddt.py", line 145, in wrapper
     return func(self, *args, **kwargs)
-  File "D:\Python代码\API_Project\test_case\test_http_request.py", line 16, in test_request
-    if item['check_sql'] !=None:
-KeyError: 'check_sql'
+  File "D:\GitHub\API_Project\test_case\test_http_request.py", line 35, in test_request
+    url = DoRegx.do_regx(item['url'], self.datas)
+  File "D:\GitHub\API_Project\public\do_regx.py", line 34, in do_regx
+    tmp = dict[int(n[0]) - 1]
+ValueError: invalid literal for int() with base 10: 'token'
 
 
     </pre>
@@ -183,11 +205,11 @@ KeyError: 'check_sql'
 
 <tr id='total_row' class="text-center active">
     <td>总计</td>
+    <td>2</td>
     <td>1</td>
     <td>0</td>
-    <td>0</td>
     <td>1</td>
-    <td>通过率：0.00%</td>
+    <td>通过率：50.00%</td>
 </tr>
 </table>
 
